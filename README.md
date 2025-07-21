@@ -1,6 +1,6 @@
 # DCGM Exporter Binary
 
-A prebuilt binary distribution of the [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) for easy deployment and integration.
+A prebuilt x86 and ARN binary distribution of the [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) for easy deployment and integration.
 
 ## Overview
 
@@ -8,9 +8,16 @@ This repository provides pre-compiled binaries of the NVIDIA DCGM Exporter, elim
 
 ## Quick Start
 
-### Download the Binary
+### Download the x86 Binary
 
 ```bash
-curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter
+curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter-x86
+chmod +x dcgm_exporter
+```
+
+### Download the ARM Binary
+
+```bash
+curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter-ARM
 chmod +x dcgm_exporter
 ```
