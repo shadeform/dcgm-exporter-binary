@@ -11,7 +11,7 @@ This repository provides pre-compiled binaries of the NVIDIA DCGM Exporter, elim
 ### Download the x86 Binary
 
 ```bash
-curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter-x86
+curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter
 chmod +x dcgm_exporter
 ```
 
