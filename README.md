@@ -18,6 +18,6 @@ chmod +x dcgm_exporter
 ### Download the ARM Binary
 
 ```bash
-curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter-ARM
+curl -L -o dcgm_exporter https://github.com/shadeform/dcgm-exporter-binary/releases/download/v0.1.0/dcgm-exporter-arm
 chmod +x dcgm_exporter
 ```
